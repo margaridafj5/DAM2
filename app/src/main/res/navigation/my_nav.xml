@@ -15,7 +15,7 @@
         android:id="@+id/userprofile"
         android:name="com.example.projetodum.FirstFragment"
         android:label="fragment_first"
-        tools:layout="@layout/fragment_first" />
+        tools:layout="@layout/profileu" />
     <fragment
         android:id="@+id/Settings"
         android:name="com.example.projetodum.ThirdFragment"
