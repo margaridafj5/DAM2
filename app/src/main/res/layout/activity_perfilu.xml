@@ -22,7 +22,7 @@
             tools:layout_editor_absoluteY="-30dp" />
 
         <TextView
-            android:id="@+id/textView"
+            android:id="@+id/Following"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Following"
@@ -31,7 +31,7 @@
             tools:layout_editor_absoluteY="217dp" />
 
         <TextView
-            android:id="@+id/textView3"
+            android:id="@+id/Followers"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Followers"
@@ -59,16 +59,16 @@
 
         <com.google.android.material.tabs.TabLayout
             android:id="@+id/tabs"
-            android:layout_width="409dp"
-            android:layout_height="wrap_content"
+            android:layout_width="416dp"
+            android:layout_height="56dp"
             android:background="#ad2228"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintHorizontal_bias="0.6"
             app:layout_constraintStart_toStartOf="parent"
-            app:tabIndicator="#fcacac"
+
             app:tabIndicatorColor="#fcacac"
             app:tabTextColor="@color/white"
-            tools:layout_editor_absoluteY="285dp">
+            tools:layout_editor_absoluteY="289dp">
 
             <com.google.android.material.tabs.TabItem
                 android:id="@+id/ex"
@@ -86,7 +86,7 @@
                 android:id="@+id/calc"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Calculate..." />
+                android:text="PROGRESSIONS" />
         </com.google.android.material.tabs.TabLayout>
 
         <androidx.viewpager.widget.ViewPager
