@@ -14,4 +14,12 @@
         app:srcCompat="@drawable/red_white_circular_health_club_logo__1_"
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="115dp" />
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        tools:layout_editor_absoluteX="159dp"
+        tools:layout_editor_absoluteY="584dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
