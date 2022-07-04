@@ -1,5 +1,13 @@
 package com.example.projetodum.classes;
 
+import android.content.Intent;
+
+import com.example.projetodum.BackOffice;
+import com.example.projetodum.FirstPage;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+
 import java.util.Date;
 
 public class User {
